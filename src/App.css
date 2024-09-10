@@ -1,0 +1,58 @@
+body {
+  background-color: #4682B4; /* צבע התחלתי */
+  animation: changeColor 5s infinite;
+}
+
+@keyframes changeColor {
+  0% {
+    background-color: #4682B4;
+  }
+  25% {
+    background-color: #6495ED;
+  }
+  50% {
+    background-color: #778BE8;
+  }
+  75% {
+    background-color: #B0C4DE;
+  }
+  100% {
+    background-color: #4682B4;
+  }
+}
+
+.container {
+  padding: 10px;
+}
+
+/* Tablet styles */
+@media (min-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    padding: 20px;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+
+  .container {
+    padding: 30px;
+  }
+}
+
+
+
+.card-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 20px; /* Optional: Adds space between the cards */
+  padding: 20px; /* Optional: Adds padding around the container */
+}

@@ -1,0 +1,66 @@
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+
+.card h2 {
+    margin: 0;
+    color: #42319f;
+    font-size: 1.8em;
+}
+
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+.input-group input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+button {
+    background-color: #42319f;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+
+.result {
+    margin-top: 20px;
+}
+
+
+.result h3 {
+    margin: 0;
+    color: #333;
+}
+
+
+.result p {
+    font-size: 1.5em;
+    color: #42319f;
+}

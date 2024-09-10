@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    font-family: fantasy;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #474848; /* צבע רקע סגול כהה */
+    border-radius: 55px; /* זוויות מעוגלות */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1); /* צל עדין */
+    margin: 10px;
+    padding: 10px;
+    font-size: 45px;
+    width: 50%;
+    height: 10%;
+    margin: 0 auto;
+}
+
+/* עיצוב ה-div בתוך הכותרת */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff; /* צבע טקסט לבן */
+    width: 100%; /* התפשט לאורך הרוחב של ה-header */
+    height: 100%; /* התפשט לאורך הגובה של ה-header */
+    box-sizing: border-box; /* להבטיח שה-padding וה-border כלולים בגובה ורוחב */
+}
